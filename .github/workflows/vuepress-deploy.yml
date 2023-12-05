@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@deploy
+      uses: actions/checkout@main
 
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
