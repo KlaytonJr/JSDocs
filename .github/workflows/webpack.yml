@@ -27,6 +27,6 @@ jobs:
       run: ln -s ./src/.vuepress/dist/index.html ./src/.vuepress/dist/404.html
 
     - name: Publish site
-      uses: KlaytonJr/ghpages@v0.2.1
+      uses: KlaytonJr/JSDocs@v0.2.1
       env:
         BUILD_DIR: ./src/.vuepress/dist
