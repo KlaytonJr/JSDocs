@@ -38,22 +38,23 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/us/": {
-      // navbar
-      navbar: enNavbar,
+    // TODO: Add new language
+    // "/us/": {
+    //   // navbar
+    //   navbar: enNavbar,
 
-      // sidebar
-      sidebar: enSidebar,
+    //   // sidebar
+    //   sidebar: enSidebar,
 
-      footer: "默认页脚",
+    //   footer: "默认页脚",
 
-      displayFooter: true,
+    //   displayFooter: true,
 
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+    //   // page meta
+    //   metaLocales: {
+    //     editLink: "在 GitHub 上编辑此页",
+    //   },
+    // },
   },
 
   encrypt: {
