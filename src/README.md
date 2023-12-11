@@ -13,5 +13,5 @@ features:
   details: Acesse o Notion para ter acesso a links que ajudam no estudo do JavaScript.
 # - title: Feature 3 Title
 #   details: Feature 3 Description
-footer: Made by Klayton Jr with ❤️
+# footer: Made by Klayton Jr with ❤️
 ---

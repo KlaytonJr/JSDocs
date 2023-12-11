@@ -2,7 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const ptSidebar = sidebar({
     "/": [
-        "",
+        // "",
         // {
         //   text: "Demo",
         //   icon: "laptop-code",
@@ -14,8 +14,14 @@ export const ptSidebar = sidebar({
           text: "Docs",
           icon: "book",
           prefix: "guide/",
-          children: "structure",
+          children: [
+            '',
+            'variables',
+            'conditionals',
+            'functions',
+            'scope',
+          ],
         },
-        "slides",
+        // "slides",
     ],
 });
