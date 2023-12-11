@@ -1,3 +1,8 @@
+---
+title: Escopo
+icon: check
+---
+
 # Escopo
 
 O escopo em JavaScript refere-se à visibilidade e acessibilidade de variáveis em diferentes partes do código. Existem dois tipos principais de escopo: escopo global e escopo local.

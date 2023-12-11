@@ -1,3 +1,8 @@
+---
+title: Variáveis
+icon: check
+---
+
 # Variáveis
 
 ## Tipos de dados

@@ -1,3 +1,8 @@
+---
+title: Funções
+icon: check
+---
+
 # Funções
 
 Função é um conjunto de instruções que se agrupam para realizar uma tarefa concreta.
