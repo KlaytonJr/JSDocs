@@ -129,6 +129,7 @@ Essas estruturas de comparação são fundamentais para criar lógica condiciona
 ## Switch Case
 
    - A estrutura `switch` é usada quando se deseja comparar uma expressão com múltiplos valores possíveis e executar diferentes blocos de código com base nesses valores.
+
    - Exemplo:
      ```javascript
      let diaDaSemana = 3;
@@ -145,3 +146,11 @@ Essas estruturas de comparação são fundamentais para criar lógica condiciona
              console.log("Dia inválido");
      }
      ```
+   
+   Cada condição é verificada e, se for cumprida, será executado o que estiver especificado dentro de cada case.
+    
+   Normalmente, depois das instruções de cada case, é incluída a sentença break para interromper a execução do switch, mesmo que  não seja obrigatório.
+    
+   O que acontece se nenhum valor da variável do switch corresponde aos valores definidos em algum dos case? 
+    
+   Nesse caso, se utiliza o valor default para indicar as instruções que serão executadas quando nenhuma condição anterior for cumprida.
