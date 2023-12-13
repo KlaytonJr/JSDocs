@@ -22,6 +22,7 @@ export const ptSidebar = sidebar({
             'scope',
             'cycle',
             'objects',
+            'class',
             'arrays',
             'supFunctions',
             'mathDate',
