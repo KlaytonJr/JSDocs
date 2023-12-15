@@ -1,6 +1,6 @@
 ---
 title: Math e Date
-icon: loading
+icon: check
 ---
 
 # Math e Date

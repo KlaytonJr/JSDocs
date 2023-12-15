@@ -1,6 +1,6 @@
 ---
 title: Funções de ordem superior
-icon: loading
+icon: check
 ---
 
 # Funções de ordem superior
