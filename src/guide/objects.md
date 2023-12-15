@@ -215,3 +215,68 @@ for (let propriedade in carro) {
 // modelo: Corolla
 // ano: 2020
 ```
+
+### Desestruturação de objetos
+
+A desestruturação de objetos é uma característica do JavaScript que permite extrair valores de objetos e atribuí-los a variáveis de forma concisa. Aqui está um resumo dos principais conceitos relacionados à desestruturação de objetos:
+
+### Sintaxe Básica:
+
+```javascript
+const pessoa = { nome: 'Alice', idade: 25, cidade: 'Exemplo' };
+
+// Desestruturação
+const { nome, idade, cidade } = pessoa;
+
+console.log(nome);   // Saída: 'Alice'
+console.log(idade);  // Saída: 25
+console.log(cidade); // Saída: 'Exemplo'
+```
+
+### Atribuição com Nomes Diferentes:
+
+É possível atribuir a variáveis com nomes diferentes da propriedade do objeto.
+
+```javascript
+const { nome: nomeUsuario, idade: idadeUsuario } = pessoa;
+
+console.log(nomeUsuario);  // Saída: 'Alice'
+console.log(idadeUsuario); // Saída: 25
+```
+
+### Valor Padrão:
+
+Podemos fornecer valores padrão para propriedades que podem ser undefined no objeto.
+
+```javascript
+const { nome, idade, cidade = 'Desconhecida' } = pessoa;
+
+console.log(cidade); // Saída: 'Desconhecida' (valor padrão, pois não há 'cidade' no objeto)
+```
+
+### Desestruturação em Parâmetros de Função:
+
+A desestruturação é frequentemente usada em parâmetros de função.
+
+```javascript
+function exibirInformacoes({ nome, idade }) {
+    console.log(`Nome: ${nome}, Idade: ${idade}`);
+}
+
+exibirInformacoes(pessoa); // Saída: Nome: Alice, Idade: 25
+```
+
+### Desestruturação Aninhada:
+
+Podemos desestruturar objetos aninhados.
+
+```javascript
+const empresa = { nome: 'ABC Corp', endereco: { cidade: 'CidadeA', estado: 'EstadoX' } };
+
+const { nome, endereco: { cidade, estado } } = empresa;
+
+console.log(cidade); // Saída: 'CidadeA'
+console.log(estado); // Saída: 'EstadoX'
+```
+
+A desestruturação de objetos oferece uma maneira eficiente de trabalhar com propriedades de objetos, tornando o código mais limpo e legível. É uma técnica comumente usada em JavaScript moderno.
