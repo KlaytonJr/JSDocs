@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://klaytonjr.github.io/JSDocs/JSDocs/sitemap.xml
