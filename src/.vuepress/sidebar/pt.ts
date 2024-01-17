@@ -13,6 +13,7 @@ export const ptSidebar = sidebar({
         {
           text: "Docs",
           icon: "book",
+          collapsible: true,
           prefix: "guide/",
           children: [
             '',
@@ -36,6 +37,14 @@ export const ptSidebar = sidebar({
             'lib',
             'frameworks',
           ],
+        },
+        {
+            text: "Exercícios",
+            icon: "file",
+            prefix: "exercises/",
+            collapsible: true,
+            // link: "exercises/",
+            children: "structure",
         },
         // "slides",
     ],

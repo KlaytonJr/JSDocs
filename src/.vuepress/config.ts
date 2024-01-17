@@ -24,7 +24,7 @@ export default defineUserConfig({
   // Enable it with pwa
   shouldPrefetch: false,
 
-  plugins: [
+  plugins: [    
     searchPlugin({
       // your options
       locales: {
