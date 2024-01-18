@@ -209,6 +209,77 @@ console.log(true ?? "Nullish")  // true
 console.log(false ?? "Nullish")  // false
 ```
 
+### Comparação do || x ??
+
+<!-- | Elemento       | `||` (Falsy) | `??` (Nullish) |
+|----------------|--------------|----------------|
+| 0              | ✅            | ❌              |
+| 40             | ❌            | ❌              |
+| null           | ✅            | ✅              |
+| undefined      | ✅            | ✅              |
+| "Olá Mundo"    | ❌            | ❌              |
+| ""             | ✅            | ❌              |
+| NaN            | ✅            | ❌              |
+| true           | ❌            | ❌              |
+| false          | ✅            | ❌              | -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>|| (Falsy)</th>
+      <th>?? (Nullish)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>null</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>undefined</td>
+      <td>✅</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>"Olá Mundo"</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>""</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>NaN</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>true</td>
+      <td>❌</td>
+      <td>❌</td>
+    </tr>
+    <tr>
+      <td>false</td>
+      <td>✅</td>
+      <td>❌</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Acesso condicional
 
 ### Acesso condiconal a um objeto
